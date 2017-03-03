@@ -13,8 +13,8 @@ import com.webpower.WebpowerSoapAPIPort;
  */
 public class Test2 {
     public static void main(String[] args) {
-        String username = "liuruichao";
-        String password = "Liuruichao1027_";
+        String username = "";
+        String password = "";
         int campaignID = 7;           //campaign id
         int mailingID = 47;             //which mail you'll send
         int recipientID = 2;       //recipient id, return from addrecipient

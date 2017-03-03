@@ -19,8 +19,8 @@ import com.webpower.WebpowerSoapAPIPort;
 public class Test1 {
     public static void main(String[] args) {
         AddRecipientsResultType result = null;
-        String username = "admin";
-        String password = "bLisg_uu6";
+        String username = "";
+        String password = "";
         int campaignID = 5;           //campaign id
         int mailingID = 57;             //which mail you'll send
 
