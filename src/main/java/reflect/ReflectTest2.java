@@ -23,6 +23,7 @@ package reflect;
 public class ReflectTest2 {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException {
         Class<?> clazz = Person.class;
+        // 创建一个实例
         Person person = (Person) clazz.newInstance();
         System.out.println(person);
     }
