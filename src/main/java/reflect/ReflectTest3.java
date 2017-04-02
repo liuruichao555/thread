@@ -26,7 +26,7 @@ public class ReflectTest3 {
 
         private int age;
 
-        public Dog(String name, int age) {
+        Dog(String name, int age) {
             this.name = name;
             this.age = age;
         }
