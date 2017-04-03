@@ -17,6 +17,11 @@ public class ReflectTest4 {
 
         method = clazz.getMethod("print");
         method.invoke(new Person());
+
+        Method[] methods = clazz.getMethods();
+        for (Method m : methods) {
+            System.out.println(m.getName());
+        }
     }
 
     private static class Person {
