@@ -13,10 +13,11 @@ public class CyclicBarrierTest1 {
     private static int MAX_NUM = 5;
     private static CyclicBarrier barrier = new CyclicBarrier(MAX_NUM);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws BrokenBarrierException, InterruptedException {
         for (int i = 0; i < MAX_NUM; i++) {
             new MyThread().start();
         }
+        System.out.println("done");
     }
 
     static class MyThread extends Thread {
